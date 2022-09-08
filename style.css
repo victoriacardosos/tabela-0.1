@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid #ccc;
+}
+
+table td a{
+    width: 100%;
+    float: left;
+    padding: 4px 12px;
+    text-decoration: none;
+    color: #000;
+}
+
+table thead td {
+    padding: 2px 12px;
+    background-color: #eee;
+}
+
+th,td {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+caption {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+thead,tfoot {
+    background-color: teal;
+    color: white;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: #20b2aa;
+    color: black;
+}
+
+td.num {
+    text-align: right;
+}
+
+table tbody tr:hover td{
+    background-color: #d4ebff;
+}
